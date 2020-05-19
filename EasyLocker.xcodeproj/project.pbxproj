@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00D1655241D4389007C79F5 /* LockWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00D1654241D4389007C79F5 /* LockWindowController.swift */; };
+		B00D1658241D52FD007C79F5 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00D1657241D52FD007C79F5 /* ColorExtension.swift */; };
+		B00D165C241D586D007C79F5 /* EnterPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00D165B241D586D007C79F5 /* EnterPasswordView.swift */; };
+		B0E1D135241D19420053973A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E1D134241D19420053973A /* AppDelegate.swift */; };
+		B0E1D137241D19460053973A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0E1D136241D19460053973A /* Assets.xcassets */; };
+		B0E1D13A241D19460053973A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0E1D138241D19460053973A /* MainMenu.xib */; };
+		B0FE0D442420D02D00282912 /* CheckPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FE0D432420D02D00282912 /* CheckPanel.swift */; };
+		B0FE0D462423214D00282912 /* NSViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FE0D452423214C00282912 /* NSViewExtensions.swift */; };
+		B0FE0D542424C9AE00282912 /* CheckmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FE0D532424C9AE00282912 /* CheckmarkView.swift */; };
+		B0FE0D562424CDBA00282912 /* NSBezierPath2cgPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FE0D552424CDBA00282912 /* NSBezierPath2cgPath.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B00D1654241D4389007C79F5 /* LockWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockWindowController.swift; sourceTree = "<group>"; };
+		B00D1657241D52FD007C79F5 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		B00D165B241D586D007C79F5 /* EnterPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPasswordView.swift; sourceTree = "<group>"; };
+		B0E1D131241D19420053973A /* EasyLocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyLocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E1D134241D19420053973A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0E1D136241D19460053973A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0E1D139241D19460053973A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B0E1D13B241D19460053973A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0E1D13C241D19460053973A /* EasyLocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EasyLocker.entitlements; sourceTree = "<group>"; };
+		B0FE0D432420D02D00282912 /* CheckPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPanel.swift; sourceTree = "<group>"; };
+		B0FE0D452423214C00282912 /* NSViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSViewExtensions.swift; sourceTree = "<group>"; };
+		B0FE0D532424C9AE00282912 /* CheckmarkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckmarkView.swift; sourceTree = "<group>"; };
+		B0FE0D552424CDBA00282912 /* NSBezierPath2cgPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSBezierPath2cgPath.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0E1D12E241D19420053973A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B00D1651241D1AA9007C79F5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B00D1659241D5842007C79F5 /* Window */,
+				B00D165A241D584A007C79F5 /* View */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B00D1656241D52D4007C79F5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B0FE0D532424C9AE00282912 /* CheckmarkView.swift */,
+				B0FE0D552424CDBA00282912 /* NSBezierPath2cgPath.swift */,
+				B0FE0D452423214C00282912 /* NSViewExtensions.swift */,
+				B00D1657241D52FD007C79F5 /* ColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B00D1659241D5842007C79F5 /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				B00D1654241D4389007C79F5 /* LockWindowController.swift */,
+				B0FE0D432420D02D00282912 /* CheckPanel.swift */,
+			);
+			path = Window;
+			sourceTree = "<group>";
+		};
+		B00D165A241D584A007C79F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B00D165B241D586D007C79F5 /* EnterPasswordView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B0E1D128241D19420053973A = {
+			isa = PBXGroup;
+			children = (
+				B00D1651241D1AA9007C79F5 /* UI */,
+				B0E1D133241D19420053973A /* EasyLocker */,
+				B00D1656241D52D4007C79F5 /* Extensions */,
+				B0E1D132241D19420053973A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0E1D132241D19420053973A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0E1D131241D19420053973A /* EasyLocker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0E1D133241D19420053973A /* EasyLocker */ = {
+			isa = PBXGroup;
+			children = (
+				B0E1D134241D19420053973A /* AppDelegate.swift */,
+				B0E1D136241D19460053973A /* Assets.xcassets */,
+				B0E1D138241D19460053973A /* MainMenu.xib */,
+				B0E1D13B241D19460053973A /* Info.plist */,
+				B0E1D13C241D19460053973A /* EasyLocker.entitlements */,
+			);
+			path = EasyLocker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0E1D130241D19420053973A /* EasyLocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0E1D13F241D19460053973A /* Build configuration list for PBXNativeTarget "EasyLocker" */;
+			buildPhases = (
+				B0E1D12D241D19420053973A /* Sources */,
+				B0E1D12E241D19420053973A /* Frameworks */,
+				B0E1D12F241D19420053973A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyLocker;
+			productName = EasyLocker;
+			productReference = B0E1D131241D19420053973A /* EasyLocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0E1D129241D19420053973A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = RoyRao;
+				TargetAttributes = {
+					B0E1D130241D19420053973A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B0E1D12C241D19420053973A /* Build configuration list for PBXProject "EasyLocker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0E1D128241D19420053973A;
+			productRefGroup = B0E1D132241D19420053973A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0E1D130241D19420053973A /* EasyLocker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0E1D12F241D19420053973A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E1D137241D19460053973A /* Assets.xcassets in Resources */,
+				B0E1D13A241D19460053973A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0E1D12D241D19420053973A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FE0D542424C9AE00282912 /* CheckmarkView.swift in Sources */,
+				B00D1658241D52FD007C79F5 /* ColorExtension.swift in Sources */,
+				B0FE0D462423214D00282912 /* NSViewExtensions.swift in Sources */,
+				B00D1655241D4389007C79F5 /* LockWindowController.swift in Sources */,
+				B0FE0D562424CDBA00282912 /* NSBezierPath2cgPath.swift in Sources */,
+				B0FE0D442420D02D00282912 /* CheckPanel.swift in Sources */,
+				B00D165C241D586D007C79F5 /* EnterPasswordView.swift in Sources */,
+				B0E1D135241D19420053973A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0E1D138241D19460053973A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0E1D139241D19460053973A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0E1D13D241D19460053973A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0E1D13E241D19460053973A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B0E1D140241D19460053973A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EasyLocker/EasyLocker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S6ZX968578;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = EasyLocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoyRao.EasyLocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B0E1D141241D19460053973A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EasyLocker/EasyLocker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S6ZX968578;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = EasyLocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoyRao.EasyLocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0E1D12C241D19420053973A /* Build configuration list for PBXProject "EasyLocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E1D13D241D19460053973A /* Debug */,
+				B0E1D13E241D19460053973A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0E1D13F241D19460053973A /* Build configuration list for PBXNativeTarget "EasyLocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E1D140241D19460053973A /* Debug */,
+				B0E1D141241D19460053973A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0E1D129241D19420053973A /* Project object */;
+}
