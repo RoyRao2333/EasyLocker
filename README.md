@@ -1,2 +1,3 @@
 # EasyLocker
-A Swift application used to lock apps on your macOS.
+NOT COMPLETED! STILL PROGRAMMING! <br/>
+A Swift application used to lock apps on your macOS. 
